@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .parent
+        {
+            border: 2px solid black;
+            width: 80%;
+            min-height: 200px;
+            margin:30px auto;
+            padding: 20px;
+        }
+        .box
+        {
+            height: 200px;
+            width: 90%;
+            margin:10px auto;
+            border: 2px solid red;
+        }
+        .box1
+        {
+            background-color: aqua;
+            position: relative;
+            z-index: 1;
+            /* position: sticky; */
+        }
+        .box2
+        {
+            background-color: orange;
+            position: relative;
+            top: -50px;
+            left: 30px;
+        }
+        .box3
+        {
+            background-color: rgb(255, 0, 140);
+            position: sticky;
+        }
+        .box4
+        {
+            background-color: rgb(171, 14, 169);
+        }
+        .nav{
+            background-color: red;
+            width: 100%;
+            height: 100px;
+            position: sticky;
+            top: 0px;
+            z-index: 100;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav"></div>
+    <div class="parent">
+       <div class="box box1"></div>
+       <div class="box box2"></div>
+       <div class="box box3"></div>
+       <div class="box box4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione omnis nesciunt similique vero cupiditate. Ipsum, consequuntur ullam? Laborum ex doloremque debitis, ut accusamus aspernatur deserunt ipsam cum iure reiciendis quaerat.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, consequuntur optio veniam eveniet ratione a voluptate commodi fugit harum dolorem laboriosam odio quisquam dicta cum velit atque totam voluptates iusto qui. Nesciunt quae laboriosam vel eius minus impedit quis aperiam consectetur reprehenderit eaque consequuntur ullam dolorum aliquam vero rem rerum quam repellendus nihil ad eum, soluta enim quidem harum. Cumque quisquam explicabo aspernatur. Tenetur fugit nulla, aliquid magnam exercitationem explicabo ea excepturi dolor nostrum saepe tempora id! Tenetur soluta placeat quia, id veniam porro molestias cupiditate unde voluptatem praesentium mollitia aliquid amet, vero est repudiandae adipisci, aspernatur illum a natus?
+       </div>
+    </div>
+</body>
+</html>

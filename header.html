@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body
+        {
+            background-color: #E2F0F3;
+        }
+        .header
+        {
+            width: 100%;
+            background-color: black;
+            margin: auto;
+        }
+        .header h1
+        {
+            display: inline-block;
+            padding: 15px;
+            color: aliceblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .header ul li
+        {
+            display: inline-block;
+            padding: 20px;
+            font-weight: bold;
+            font-size: 20px;
+            color: aliceblue;
+        }
+        .header ul
+        {
+           float: right;
+        }
+        .header ul li:hover{
+            color: rgb(182, 184, 185);
+            background-color: rgb(93, 62, 5);
+        }
+        .header h1:hover{
+            color: #E2F0F3;
+            text-shadow: 0px 10px 10px black;
+        }
+        .slider,.slider img
+        {
+            height:560px;
+            background-color: #E2F0F3;
+            overflow: hidden;
+        }
+        .services
+        {
+            width: 80%;
+            margin: auto;
+            height: 300px;
+        }
+        .services h1
+        {
+            text-align: center;
+            margin-top: 100px;
+        }
+        .services .card
+        {
+            height: 250px;
+            width: 27%;
+            /* border: 1px solid aqua; */
+            float: left;
+            margin: 3%;
+            text-align: center;
+            padding-top: 20px;
+            overflow: hidden;
+        }
+        .card i
+        {
+            font-size: 40px;
+            padding: 13px;
+            
+        }
+        .card .circle
+        {
+            border: 1px solid rgb(55, 157, 157);
+            height: 70px;
+            width: 70px;
+            margin: auto;
+            border-radius: 50%;
+        }
+        .circle:hover{
+            background-color:rgb(206, 233, 233) ;
+        }
+        .card p
+        {
+            font-size: 20px;
+            text-align: justify;
+            padding: 10px;
+        }
+        .card h3
+        {
+            margin-top: 10px;
+        }
+        .food
+        {
+            width: 80%;
+            margin: 20px auto;
+            height: 650px;
+        }
+        .food h1
+        {
+            text-align: center;
+            margin-top: 100px;
+        }
+        .food .dish
+        {
+            height: 260px;
+            width: 27%;   
+            float: left;
+            margin: 3%;
+            text-align: center;
+            overflow: hidden;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .team
+        {
+            width: 90%;
+            margin:100px  auto;
+            height: 300px;
+        }
+        .team .chef
+        {
+            height: 200px;
+            width: 200px;   
+            float: left;
+            margin: 4%;
+            text-align: center;
+            overflow: hidden;
+            text-align: center;
+            border: 5px solid rgb(206, 233, 233);
+            border-radius: 50%;
+        }
+        .chef:hover
+        {
+            border: 2px solid rgb(47, 45, 44);
+        }
+        .team h1
+        {
+            text-align: center;
+        }
+       .footer
+       {
+        height: 300px;
+        width: 100%;
+        background-color: black;
+        color: white;
+       }
+       .footer .list
+       {
+        height: 300px;
+        width: 50%;
+        /* border: 1px solid white; */
+        /* text-align: center; */
+        /* padding: 100px; */
+       padding-top: 100px;
+       padding-left: 100px;
+        line-height: 1.7;
+        float: left;
+       }
+       .list i
+       {
+        font-size: 30px;
+        padding: 15px;
+       }
+       .list i:hover{
+         color: blue;
+       }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="header">
+            <div class="nav">
+                <h1>Tejaswini</h1>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+        </div>
+        <div class="slider">
+            <img src="https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="100%">
+        </div>
+        <div class="services">
+            <h1>SERVICES</h1>
+            <div class="card">
+                <div class="circle">
+                <i class="fa fa-truck" aria-hidden="true"></i>
+                </div>
+                <h3>Online delivery</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident iure distinctio temporibus perferendis quibusdam quod!</p>
+            </div>
+            <div class="card">
+                <div class="circle">
+                    <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                </div>
+                <h3>Online Delivery</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident iure distinctio temporibus perferendis quibusdam quod!</p>
+            </div>
+            <div class="card">
+                <div class="circle">
+                    <i class="fa fa-cutlery" aria-hidden="true"></i>
+                </div>
+                <h3>Online Delivery</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident iure distinctio temporibus perferendis quibusdam quod!</p>
+            </div>
+        </div>
+        <div class="food">
+            <h1>OUR SPECIAL FOOD</h1>
+            <div class="dish">
+                <img src="img/noodles.jpg" alt="" width="100%" height="90%">
+              <h2>Noodles</h2>
+            </div>
+            <div class="dish">
+                <img src="img/pizza.jpg" alt="" width="100%" height="90%">
+                <h2>Pizza</h2>
+              </div>
+              <div class="dish">
+                <img src="img/paneer.jpg" alt="" width="100%" height="90%">
+                <h2>Paneer</h2>
+              </div>
+              <div class="dish">
+                <img src="img/ricePlate.jpg" alt="" width="100%" height="90%">
+                <h2>Rice Plate</h2>
+              </div>
+              <div class="dish">
+                <img src="img/noodles.jpg" alt="" width="100%" height="90%">
+                <h2>Chaomin</h2>
+              </div>
+              <div class="dish">
+                <img src="img/pizza.jpg" alt="" width="100%" height="90%">
+                <h2>Pizza</h2>
+              </div>
+        </div>
+        <div class="team">
+            <h1>OUR TEAM</h1>
+            <div class="chef">
+                <img src="https://prego-samui.com/wp-content/uploads/2023/02/APR_3355-2-scaled.jpg" alt="" width="100%" height="100%">
+            </div>
+            <div class="chef">
+                <img src="https://i.pinimg.com/736x/5f/9c/91/5f9c91fc2df3edb394de5aa2dd51e408.jpg" alt="" width="100%" height="100%">
+            </div>
+            <div class="chef">
+                <img src="https://media.licdn.com/dms/image/C5603AQHOTxjFSSRWJw/profile-displayphoto-shrink_800_800/0/1639055290747?e=2147483647&v=beta&t=ZQn0EUC_Qy1ixaVfK4WgYe9wjvnlqLIgbda437fmjc0" alt="" width="100%" height="100%">
+            </div>
+            <div class="chef">
+                <img src="https://www.seasonedbychefs.co.uk/wp-content/uploads/2018/02/atul-kochhar-small.jpg" alt="" width="100%" height="100%">
+            </div>
+        </div>
+        <div class="footer">
+            <div class="list">
+                <ul>
+                    <li>__marathetejaswini@gmail.com</li>
+                    <li>__35463457557437</li>
+                    <li>__Tejaswini Marathe</li>
+                    <li>__marathetejaswini@gmail.com</li>
+                    <li>__marathetejaswini@gmail.com</li>
+                    <li>__marathetejaswini@gmail.com</li>
+                </ul>
+            </div>
+            <div class="list">
+                <h1>tejaswinimarathe@gmail.com</h1>
+                <h2>8765432345</h2>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

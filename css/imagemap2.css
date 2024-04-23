@@ -1,0 +1,80 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box
+{
+    min-height: 200px;
+    width: 80%;
+    border: 2px solid black;
+    margin: auto;
+    background-color: aliceblue;
+}
+.box .header
+{
+    height: 100px;
+    width: 100%;
+    color: white;
+    background-color: aliceblue;
+}
+.box .header .logo
+{
+    width: 20%;
+    height: 80px;
+    float: left;
+}
+.box .header .logo img
+{
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.header .menu 
+{
+    float: right;
+    padding: 20px;
+    width: 60%;
+    margin-top: 20px;
+}
+.header .menu a
+{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.slider
+{
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.krushi
+{
+    width: 100%;
+    min-height: 200px;
+    margin-top: 10px;
+    background-color: red;
+}
+.krushi .product1
+{
+    height: 400px;
+    width: 50%;
+    background-color: orange;
+    background-image: url('https://5.imimg.com/data5/ZC/TO/KO/ANDROID-76821155/product-jpeg-500x500.jpg');
+    display: grid;
+    align-items: last baseline;    
+
+}
+
+.krushi .product1 span, p{
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+

@@ -1,0 +1,131 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+.box
+{
+    box-sizing: border-box;
+    min-height: 100px;
+}
+.header
+{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+}
+.header h1{
+    padding: 10px;
+}
+.header ul li
+{
+    color: white;
+    display: inline-block;
+}
+.slider 
+{
+    height: 600px;
+    overflow: hidden;
+}
+.slider img{
+    width: 100%;
+}
+.myself
+{
+    height: 500px;
+    width: 100%;
+}
+.Img
+{
+ width: 500px;
+ height: 400px;
+ margin-top: 50px;
+ background-image: url('https://pluspng.com/img-png/png-woman-cooking-chef-women-948.png');
+ background-size: 100% 100%;
+ float: left;
+}
+.Intro
+{
+ width: 700px;
+ height: 400px;
+ margin-top: 50px;
+ background-size: 100% 100%;
+ float: left;
+ margin-left: 100px;
+ text-align: justify;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.Intro h1
+{
+    text-align: center;
+    margin-top: 20px;
+}
+.Intro p
+{
+    font-size: 25px;
+    padding: 25px;
+}
+.dishes
+{
+    margin-top: 50px;
+    
+}
+.dishes h1
+{
+    text-align: center;
+    font-family: sans-serif;
+}
+.dishes #fav
+{
+    /* border: 1px solid blue; */
+    height: 300px;
+    width: 20%;
+    float: left;
+    margin: 32px;
+    background-image: url('../img/paneer.jpg');
+    background-size: 100% 100%;
+    text-align: center;
+    box-shadow: 0px 10px 15px gray;
+    
+}
+.dishes #fav1
+{
+    /* border: 1px solid blue; */
+    height: 300px;
+    width: 20%;
+    float: left;
+    margin: 32px;
+    background-image: url('../img/noodles.jpg');
+    background-size: 100% 100%;
+    text-align: center;
+    box-shadow: 0px 10px 15px gray;
+    
+}
+.dishes #fav2
+{
+    /* border: 1px solid blue; */
+    height: 300px;
+    width: 20%;
+    float: left;
+    margin: 32px;
+    background-image: url('../img/pizza.jpg');
+    background-size: 100% 100%;
+    text-align: center;
+    box-shadow: 0px 10px 15px gray;
+    
+}
+.dishes #fav3
+{
+    /* border: 1px solid blue; */
+    height: 300px;
+    width: 20%;
+    float: left;
+    margin: 32px;
+    background-image: url('../img/ricePlate.jpg');
+    background-size: 100% 100%;
+    text-align: center;
+    box-shadow: 0px 10px 15px gray;
+    
+}

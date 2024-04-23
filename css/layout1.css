@@ -1,0 +1,170 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-color: #fef4e2;
+} */
+.container
+{
+    width: 80%;
+    margin: auto;
+    min-height: 200px;
+    background-color: #fef4e2;
+}
+.container .header
+{
+    width: 100%;
+    height: 70px;
+    background-color: #fef4e2;
+
+}
+.header .logo
+{
+    width: 45%;
+    height: 70px;
+    float: left;
+}
+.header .logo h1:hover
+{
+    color: #A7842A;
+}
+.header .logo h1
+{
+    margin: 15px;
+}
+.header .menu
+{
+    width: 45%;
+    height: 70px;
+    float: right;
+    padding: 28px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+}
+.header .menu a
+{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+.header .menu a:hover{
+    color: #A7842A;
+    background-color: #0C0402;
+}
+.slider
+{
+    width: 100%;
+    min-height: 500px;
+    
+    background-image: url('https://cdn.pixabay.com/photo/2018/06/30/09/31/background-image-3507320_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.slider h1
+{
+    color: #A7842A;
+    text-align: center;
+    line-height: 400px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.slider h1:hover{
+    color: #0C0402;
+}
+.box
+{
+    width: 100%;
+    min-height: 200px;
+}
+
+.box .card
+{
+    width: 30%;
+    height: 500px;
+    border:2px solid #170708;
+    margin-top: 50px;
+    border-radius: 20px;
+    float: left;
+}
+.box .card:nth-child(2){
+    margin: 50px 53px;
+}
+.box .card .img_box
+{
+    height: 200px;
+    width: 100%;
+    background-color: #170708;
+    border: 3px solid#170708;
+    border-radius: 20px;
+    
+}
+
+.box .card .img_box img
+{
+    height:170px;
+    width: 170px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.card h1
+{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card p
+{
+    font-size: 20px;
+    margin: 10px;
+    text-align: justify;
+}
+.card .btn
+{
+    margin-left: 120px;
+    height: 30px;
+    width: 100px;
+    border-radius: 17px;
+    background-color: #0C0402;
+    border: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+.card .btn:hover{
+    background-color: #A7842A;
+}
+.icons
+{
+    width: 100%;
+    height: 50px;
+    margin-top: 13px;
+    border-radius: 15px;
+}
+.icons i
+{
+    font-size: 30px;
+    padding: 15px;
+}
+.icons i:hover{
+    color: #A7842A;
+}
+.clearfix::after
+{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.footer
+{
+    height: 150px;
+    width: 100%;
+    background-color:#0C0402;
+    color: aliceblue;
+    text-align: center;
+    line-height: 120px;
+}
